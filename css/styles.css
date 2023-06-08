@@ -1,9 +1,30 @@
-body{
+body {
     padding: 0%;
     margin: 0%;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: whitesmoke;
 }
-
-.nav ul li {
+a { 
+    text-decoration: none;
+}
+.navbar {
     display: flex;
-
+    box-shadow:rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+nav {
+    margin-left: auto;   
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    padding-right: 50px;
+}
+.logo-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+

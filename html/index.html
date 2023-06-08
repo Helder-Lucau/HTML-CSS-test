@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-    
-</head>
-<body>
-    
-
-    <div>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>John Doe Profile Page</title>
+        <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+        
+    </head>
+    <body>
         <div class="navbar">
+            <div id="logo">
+                <a href="" class="logo-title">< John <span>Doe</span> /> </a>
+            </div>
 
-        <div id="logo"><a href="">< John Doe /> </a></div>
-
-           <!--Navigation Bar -->
+            <!--Navigation Menu-->
             <nav>
                 <ul>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">SERVICES</a></li>
-                    <li><a href="">SKILLS</a></li></ul>
-                    <li><a href="">EXPERIENCE</a></li>
-                    <li><a href="">PROJECTS</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">SKILLS</a></li>
+                    <li><a href="#">EXPERIENCE</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
             </nav>
-
         </div>
-
-    </div>
-    
-</body>
+        <section>
+            <!--Content-->
+            <h1>Hi, I'm <span>John Doe</span><br> Fullstack Developer</h1> 
+                <p>Experienced Full Stack Developer with a demostrated history of working 
+                    the internet industry. Building Web applications with Angular, PHP, 
+                    Laravel, Python, Django, Flask, MySQL/Postgres and some other cool 
+                    librabries and frameworks.
+                </p>  
+            <!--Buttons-->
+            <button class="btn">View Resume</button>
+            <button class="btn">Contact Me</button>
+            <!--Social media icons-->
+            <div id="icons">
+                <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                <a href="https://ke.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.google.com/"><i class="fa-brands fa-google"></i></a> 
+                </div>
+            <!--Profile Image-->
+            <div id="image">
+            <img src="/img/peter2.jpg" alt="peter">
+        </div>
+        </section>
+    </body>
 </html>
