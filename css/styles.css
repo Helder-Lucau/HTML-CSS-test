@@ -1,15 +1,19 @@
 body {
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Segoe UI', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     background-color: whitesmoke;
+    box-sizing: border-box;
 }
 a { 
     text-decoration: none;
+    color: black;
 }
 .navbar {
     display: flex;
-    box-shadow:rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    background-color: white;
+    padding: 10px;
 }
 nav {
     margin-left: auto;   
@@ -21,10 +25,55 @@ nav ul {
 nav ul li {
     padding-right: 50px;
 }
-.logo-title {
+.logo-name {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
+    margin: 50px;
 }
+.logo-name span {
+    color: #f90550;
+}
+section {
+    display: flex;
+}
+.left-section{
+    padding: 50px;
+}
+#image{
+    padding: 100px;
+}
+h1 {
+    font-size: 80px;
+    font-family:'Apple Chancery';
+}
+h1 span {
+    color: #f90550;
+}
+#btn1{
+    background-color: #f90550;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+#btn2{
+    background-color: #f90550;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.icons{
+    
+}
+
 
 
